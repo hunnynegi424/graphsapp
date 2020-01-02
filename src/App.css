@@ -1,38 +1,63 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  min-height: 800px;
+  min-width: 800px;
+}
+.table1 {
+  margin: 5px;
+  background-color: rgb(184, 58, 58);
+  width: 50%;
+}
+
+.inputCell {
+  width: 25%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #717474;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.addBtn {
+  border: 1px solid rgb(184, 58, 58);
+  background-color: white;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 20px;
+}
+.addBtn:hover {
+  background-color: rgb(184, 58, 58);
+  border: 1px solid white;
+  color: white
+}
+
+.table2 {
+  margin: 5px;
+  background-color: rgb(159, 209, 85);
+  width: 50%;
+}
+
+.row {
+  height: 49%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background-color: honeydew;
+  margin: 6px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cell {
+  margin: 20px;
+  border-radius: 5px;;
+  width: 40%;
+  background-color: honeydew;
+  min-height: 30px;
+  word-wrap: break-word;
+  height: max-content;
+  border: 1px solid white;
+  display: inline-block;
 }
