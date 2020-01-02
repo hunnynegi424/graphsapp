@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/graphsapp/static/css/main.092ce850.chunk.css",
+    "main.js": "/graphsapp/static/js/main.4699f8ff.chunk.js",
+    "main.js.map": "/graphsapp/static/js/main.4699f8ff.chunk.js.map",
+    "runtime-main.js": "/graphsapp/static/js/runtime-main.541ebafa.js",
+    "runtime-main.js.map": "/graphsapp/static/js/runtime-main.541ebafa.js.map",
+    "static/js/2.0956b5e0.chunk.js": "/graphsapp/static/js/2.0956b5e0.chunk.js",
+    "static/js/2.0956b5e0.chunk.js.map": "/graphsapp/static/js/2.0956b5e0.chunk.js.map",
+    "index.html": "/graphsapp/index.html",
+    "precache-manifest.569f76cfd0c3844f657e86bc76d99318.js": "/graphsapp/precache-manifest.569f76cfd0c3844f657e86bc76d99318.js",
+    "service-worker.js": "/graphsapp/service-worker.js",
+    "static/css/main.092ce850.chunk.css.map": "/graphsapp/static/css/main.092ce850.chunk.css.map",
+    "static/js/2.0956b5e0.chunk.js.LICENSE": "/graphsapp/static/js/2.0956b5e0.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.541ebafa.js",
+    "static/js/2.0956b5e0.chunk.js",
+    "static/css/main.092ce850.chunk.css",
+    "static/js/main.4699f8ff.chunk.js"
+  ]
+}
